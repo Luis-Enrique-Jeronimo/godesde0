@@ -4,8 +4,8 @@ import "fmt"
 
 func MuestroEnteros() {
 	var intcomun int
-	intde32 := int32(10)
-	intde64 := int64(100)
+	intde32 := int32(20)
+	intde64 := int64(200)
 
 	fmt.Println("intcomun = ", intcomun)
 	fmt.Println("intde32 = ", intde32)
