@@ -29,12 +29,9 @@ func main() {
 	}
 	*/
 
-	numero, cadena := ejercicios.Publica("ffff")
+	numero, cadena := ejercicios.Publica("900")
 
 	fmt.Println(numero)
 	fmt.Println(cadena)
-
-	ejercicios.Publica("40")
-	ejercicios.Publica("150")
 
 }
