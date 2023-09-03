@@ -1,6 +1,8 @@
 package main
 
 import (
+	"fmt"
+
 	ejercicios "github.com/Luis-Enrique-Jeronimo/godesde0/ejercicios"
 )
 
@@ -26,6 +28,11 @@ func main() {
 		fmt.Println("%s \n", os)
 	}
 	*/
+
+	numero, cadena := ejercicios.Publica("ffff")
+
+	fmt.Println(numero)
+	fmt.Println(cadena)
 
 	ejercicios.Publica("40")
 	ejercicios.Publica("150")
